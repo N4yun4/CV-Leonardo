@@ -17,7 +17,7 @@ export const cvData = {
             { label: "Graduation Year", value: "2025" },
             { label: "Industry Exp.", value: "3+ Mos" }
         ],
-        image: "/profile.jpeg"
+        image: "profile.jpeg"
     },
     experience: [
         {

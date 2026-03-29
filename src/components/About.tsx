@@ -12,7 +12,7 @@ export const About: React.FC = () => {
                     <img
                         alt="Professional Portrait"
                         className="relative rounded-2xl w-full max-w-sm mx-auto aspect-[3/4] object-cover shadow-2xl"
-                        src={cvData.about.image}
+                        src={`${import.meta.env.BASE_URL}${cvData.about.image}`}
                     />
                 </div>
 

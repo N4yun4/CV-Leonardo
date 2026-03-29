@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
                     © 2026 Leonardo Morris
                 </p>
                 <a
-                    href="/CV-Leonardo.pdf"
+                    href={`${import.meta.env.BASE_URL}CV-Leonardo.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-slate-400 dark:text-navy-500 hover:text-gold-600 dark:hover:text-gold-400 transition-colors"
