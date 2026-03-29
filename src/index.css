@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+/* ── Premium Palette: Deep Navy + Warm Gold ─────────────────────── */
+@theme {
+  /* Navy scale */
+  --color-navy-950: #04090F;
+  --color-navy-900: #080F1C;
+  --color-navy-850: #0C1627;
+  --color-navy-800: #101E33;
+  --color-navy-700: #162843;
+  --color-navy-600: #1E3557;
+  --color-navy-500: #2B4A76;
+  --color-navy-400: #3D6499;
+  --color-navy-300: #5880B5;
+
+  /* Gold scale */
+  --color-gold-200: #F0DBA8;
+  --color-gold-300: #E3C47A;
+  --color-gold-400: #CFA84D;
+  --color-gold-500: #B08A30;
+  --color-gold-600: #8C6C1F;
+  --color-gold-700: #664E14;
+
+  /* Neutral warm */
+  --color-stone-50:  #F8F7F5;
+  --color-stone-100: #F0EDE8;
+}
+
+@layer base {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
